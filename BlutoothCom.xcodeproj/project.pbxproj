@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6308A38D1FB4864D00564350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308A38C1FB4864D00564350 /* AppDelegate.swift */; };
+		6308A38F1FB4864D00564350 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308A38E1FB4864D00564350 /* RegisterController.swift */; };
+		6308A3921FB4864D00564350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6308A3901FB4864D00564350 /* Main.storyboard */; };
+		6308A3941FB4864D00564350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6308A3931FB4864D00564350 /* Assets.xcassets */; };
+		6308A3971FB4864D00564350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6308A3951FB4864D00564350 /* LaunchScreen.storyboard */; };
+		6308A39F1FB48BA600564350 /* UserDisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308A39E1FB48BA600564350 /* UserDisplayController.swift */; };
+		6308A3A31FB48FE900564350 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308A3A21FB48FE900564350 /* Constants.swift */; };
+		638C7C211FB59242000FBF83 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C7C201FB59242000FBF83 /* Device.swift */; };
+		638C7C231FB592F2000FBF83 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C7C221FB592F2000FBF83 /* Message.swift */; };
+		638C7C251FB59356000FBF83 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C7C241FB59356000FBF83 /* UserData.swift */; };
+		638C7C271FB5B3BC000FBF83 /* LeftPaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C7C261FB5B3BC000FBF83 /* LeftPaddedTextField.swift */; };
+		638C7C2A1FB5B726000FBF83 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C7C291FB5B726000FBF83 /* AlertHelper.swift */; };
+		638C7C2C1FB6653C000FBF83 /* AvatarPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C7C2B1FB6653C000FBF83 /* AvatarPickerController.swift */; };
+		63C7ECD01FB706F2003016DE /* ColorPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C7ECCF1FB706F2003016DE /* ColorPickerController.swift */; };
+		63C7ECD21FB76CF3003016DE /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C7ECD11FB76CF3003016DE /* UserCell.swift */; };
+		63C7ECD61FB79D57003016DE /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C7ECD51FB79D57003016DE /* ChatController.swift */; };
+		63C7ECD81FB7A36C003016DE /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C7ECD71FB7A36C003016DE /* ChatMessageCell.swift */; };
+		63C7ECDA1FB7A3C5003016DE /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C7ECD91FB7A3C5003016DE /* AvatarCell.swift */; };
+		63C7ECDD1FB7A3E9003016DE /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C7ECDC1FB7A3E9003016DE /* ColorCell.swift */; };
+		63C7ECE01FB7A9FB003016DE /* Anchoring_UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C7ECDF1FB7A9FB003016DE /* Anchoring_UIViewExtension.swift */; };
+		63C7ECE21FB843D8003016DE /* LightStyle_UINavContollerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C7ECE11FB843D8003016DE /* LightStyle_UINavContollerExtension.swift */; };
+		63C7ECE41FB8C3FF003016DE /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C7ECE31FB8C3FF003016DE /* PaddedLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6308A3891FB4864D00564350 /* BlutoothCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlutoothCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6308A38C1FB4864D00564350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6308A38E1FB4864D00564350 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		6308A3911FB4864D00564350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6308A3931FB4864D00564350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6308A3961FB4864D00564350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6308A3981FB4864D00564350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6308A39E1FB48BA600564350 /* UserDisplayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDisplayController.swift; sourceTree = "<group>"; };
+		6308A3A21FB48FE900564350 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		638C7C201FB59242000FBF83 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		638C7C221FB592F2000FBF83 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		638C7C241FB59356000FBF83 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		638C7C261FB5B3BC000FBF83 /* LeftPaddedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftPaddedTextField.swift; sourceTree = "<group>"; };
+		638C7C291FB5B726000FBF83 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		638C7C2B1FB6653C000FBF83 /* AvatarPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerController.swift; sourceTree = "<group>"; };
+		63C7ECCF1FB706F2003016DE /* ColorPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerController.swift; sourceTree = "<group>"; };
+		63C7ECD11FB76CF3003016DE /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		63C7ECD51FB79D57003016DE /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		63C7ECD71FB7A36C003016DE /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		63C7ECD91FB7A3C5003016DE /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		63C7ECDC1FB7A3E9003016DE /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		63C7ECDF1FB7A9FB003016DE /* Anchoring_UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anchoring_UIViewExtension.swift; sourceTree = "<group>"; };
+		63C7ECE11FB843D8003016DE /* LightStyle_UINavContollerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightStyle_UINavContollerExtension.swift; sourceTree = "<group>"; };
+		63C7ECE31FB8C3FF003016DE /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6308A3861FB4864D00564350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6308A3801FB4864D00564350 = {
+			isa = PBXGroup;
+			children = (
+				6308A38B1FB4864D00564350 /* BlutoothCom */,
+				6308A38A1FB4864D00564350 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6308A38A1FB4864D00564350 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6308A3891FB4864D00564350 /* BlutoothCom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6308A38B1FB4864D00564350 /* BlutoothCom */ = {
+			isa = PBXGroup;
+			children = (
+				6308A38C1FB4864D00564350 /* AppDelegate.swift */,
+				6308A3A21FB48FE900564350 /* Constants.swift */,
+				6308A38E1FB4864D00564350 /* RegisterController.swift */,
+				63C7ECDB1FB7A3D2003016DE /* AvatarPicker */,
+				63C7ECDE1FB7A3F6003016DE /* ColorPicker */,
+				63C7ECD41FB79D4A003016DE /* Chat */,
+				63C7ECD31FB79028003016DE /* UserDispayer */,
+				638C7C1F1FB59233000FBF83 /* Model */,
+				638C7C281FB5B53E000FBF83 /* Custom */,
+				6308A3901FB4864D00564350 /* Main.storyboard */,
+				6308A3931FB4864D00564350 /* Assets.xcassets */,
+				6308A3951FB4864D00564350 /* LaunchScreen.storyboard */,
+				6308A3981FB4864D00564350 /* Info.plist */,
+			);
+			path = BlutoothCom;
+			sourceTree = "<group>";
+		};
+		638C7C1F1FB59233000FBF83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				638C7C201FB59242000FBF83 /* Device.swift */,
+				638C7C221FB592F2000FBF83 /* Message.swift */,
+				638C7C241FB59356000FBF83 /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		638C7C281FB5B53E000FBF83 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				638C7C261FB5B3BC000FBF83 /* LeftPaddedTextField.swift */,
+				63C7ECE31FB8C3FF003016DE /* PaddedLabel.swift */,
+				638C7C291FB5B726000FBF83 /* AlertHelper.swift */,
+				63C7ECDF1FB7A9FB003016DE /* Anchoring_UIViewExtension.swift */,
+				63C7ECE11FB843D8003016DE /* LightStyle_UINavContollerExtension.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		63C7ECD31FB79028003016DE /* UserDispayer */ = {
+			isa = PBXGroup;
+			children = (
+				6308A39E1FB48BA600564350 /* UserDisplayController.swift */,
+				63C7ECD11FB76CF3003016DE /* UserCell.swift */,
+			);
+			path = UserDispayer;
+			sourceTree = "<group>";
+		};
+		63C7ECD41FB79D4A003016DE /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				63C7ECD51FB79D57003016DE /* ChatController.swift */,
+				63C7ECD71FB7A36C003016DE /* ChatMessageCell.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		63C7ECDB1FB7A3D2003016DE /* AvatarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				638C7C2B1FB6653C000FBF83 /* AvatarPickerController.swift */,
+				63C7ECD91FB7A3C5003016DE /* AvatarCell.swift */,
+			);
+			path = AvatarPicker;
+			sourceTree = "<group>";
+		};
+		63C7ECDE1FB7A3F6003016DE /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				63C7ECCF1FB706F2003016DE /* ColorPickerController.swift */,
+				63C7ECDC1FB7A3E9003016DE /* ColorCell.swift */,
+			);
+			name = ColorPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6308A3881FB4864D00564350 /* BlutoothCom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6308A39B1FB4864D00564350 /* Build configuration list for PBXNativeTarget "BlutoothCom" */;
+			buildPhases = (
+				6308A3851FB4864D00564350 /* Sources */,
+				6308A3861FB4864D00564350 /* Frameworks */,
+				6308A3871FB4864D00564350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlutoothCom;
+			productName = BlutoothCom;
+			productReference = 6308A3891FB4864D00564350 /* BlutoothCom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6308A3811FB4864D00564350 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = David;
+				TargetAttributes = {
+					6308A3881FB4864D00564350 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6308A3841FB4864D00564350 /* Build configuration list for PBXProject "BlutoothCom" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6308A3801FB4864D00564350;
+			productRefGroup = 6308A38A1FB4864D00564350 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6308A3881FB4864D00564350 /* BlutoothCom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6308A3871FB4864D00564350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6308A3971FB4864D00564350 /* LaunchScreen.storyboard in Resources */,
+				6308A3941FB4864D00564350 /* Assets.xcassets in Resources */,
+				6308A3921FB4864D00564350 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6308A3851FB4864D00564350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6308A3A31FB48FE900564350 /* Constants.swift in Sources */,
+				638C7C251FB59356000FBF83 /* UserData.swift in Sources */,
+				638C7C2C1FB6653C000FBF83 /* AvatarPickerController.swift in Sources */,
+				63C7ECE41FB8C3FF003016DE /* PaddedLabel.swift in Sources */,
+				6308A38F1FB4864D00564350 /* RegisterController.swift in Sources */,
+				63C7ECDA1FB7A3C5003016DE /* AvatarCell.swift in Sources */,
+				63C7ECE21FB843D8003016DE /* LightStyle_UINavContollerExtension.swift in Sources */,
+				63C7ECE01FB7A9FB003016DE /* Anchoring_UIViewExtension.swift in Sources */,
+				63C7ECD01FB706F2003016DE /* ColorPickerController.swift in Sources */,
+				638C7C211FB59242000FBF83 /* Device.swift in Sources */,
+				6308A39F1FB48BA600564350 /* UserDisplayController.swift in Sources */,
+				63C7ECD61FB79D57003016DE /* ChatController.swift in Sources */,
+				63C7ECDD1FB7A3E9003016DE /* ColorCell.swift in Sources */,
+				638C7C271FB5B3BC000FBF83 /* LeftPaddedTextField.swift in Sources */,
+				63C7ECD21FB76CF3003016DE /* UserCell.swift in Sources */,
+				638C7C2A1FB5B726000FBF83 /* AlertHelper.swift in Sources */,
+				63C7ECD81FB7A36C003016DE /* ChatMessageCell.swift in Sources */,
+				6308A38D1FB4864D00564350 /* AppDelegate.swift in Sources */,
+				638C7C231FB592F2000FBF83 /* Message.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6308A3901FB4864D00564350 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6308A3911FB4864D00564350 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6308A3951FB4864D00564350 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6308A3961FB4864D00564350 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6308A3991FB4864D00564350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6308A39A1FB4864D00564350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6308A39C1FB4864D00564350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 467CCL7KXH;
+				INFOPLIST_FILE = BlutoothCom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applinco.BlutoothCom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6308A39D1FB4864D00564350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 467CCL7KXH;
+				INFOPLIST_FILE = BlutoothCom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applinco.BlutoothCom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6308A3841FB4864D00564350 /* Build configuration list for PBXProject "BlutoothCom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6308A3991FB4864D00564350 /* Debug */,
+				6308A39A1FB4864D00564350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6308A39B1FB4864D00564350 /* Build configuration list for PBXNativeTarget "BlutoothCom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6308A39C1FB4864D00564350 /* Debug */,
+				6308A39D1FB4864D00564350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6308A3811FB4864D00564350 /* Project object */;
+}
